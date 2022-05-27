@@ -1,0 +1,44 @@
+.contain{
+    /* height: 400px; */
+    border: 2px solid green;
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 16px;
+    background-color: #75CE9F;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+}
+.contain h2{
+    color: green;
+    /* font-size: larger; */
+}
+.name-input{
+    margin: 4px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.contain button{
+    padding: 8px;
+    margin: 8px;
+    font-size: 16px;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color:  white;
+    width: 50%;
+}
+.contain img{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 40px;
+    margin: 8px auto;
+    vertical-align: middle;
+}
